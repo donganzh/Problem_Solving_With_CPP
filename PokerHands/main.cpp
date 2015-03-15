@@ -26,9 +26,7 @@ int main(int argc, char** argv) {
             
             cout << "Player 1 Hand: " << ph.evaluateHand(ph.getHandPlayer1(ph.removeWhiteSpace(line))) << endl;
             cout << "Player 2 Hand: " << ph.evaluateHand(ph.getHandPlayer2(ph.removeWhiteSpace(line))) << endl;
-//            if(ph.straight(ph.getHandPlayer2(ph.removeWhiteSpace(line)))) {
-//                cout << "STRAIGHT!!!" << endl;
-//            }
+
             cout << ph.compareHands(ph.evaluateHand(ph.getHandPlayer1(ph.removeWhiteSpace(line))), ph.evaluateHand(ph.getHandPlayer2(ph.removeWhiteSpace(line)))) << endl;
             
             cout << endl;

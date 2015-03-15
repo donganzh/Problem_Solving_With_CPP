@@ -166,7 +166,7 @@ string PokerHand::evaluateHand(string hand) {
 
     else if (twoPair(hand)) return "Two Pair";
 
-    else if (pair(hand)) return "One Pair";
+    else if (pair(hand)) return "Pair";
 
     else return "High Card";
 }
@@ -199,6 +199,6 @@ string PokerHand::compareHands(string hand1, string hand2) {
     } else if (getRank(hand1) < getRank(hand2)) {
         return "Player 2 Wins!";
     } else {
-        return "Tie!";
+        return "tie!";
     }
 }
