@@ -5,10 +5,10 @@
  * Created on March 22, 2015, 11:28 PM
  */
 
-#include <string>
-
 #ifndef EMPLOYEE_H
 #define	EMPLOYEE_H
+
+#include <string>
 
 class Employee {
 public:
